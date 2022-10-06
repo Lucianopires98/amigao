@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+li {
+  text-decoration: none;
+  display: inline;
+  color: #000;
+  margin-left: 4px;
+}
+
+nav {
+  margin: 10px;
+}
+
+nav,
+a {
+  text-decoration: none;
+}
+
+.menu {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.menu p {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.menu button {
+  margin-top: 50px;
+}
+
+.meio {
+  margin-bottom: 50px;
+}
+
+.meio button {
+  margin-top: 25px;
+}
+
+.meio p {
+  margin: 10px;
+}
+
+.krypto img {
+  border-radius: 300px;
+  border: 2px solid;
+  width: 200px;
+}
+
+.krypto p {
+  margin-bottom: 50px;
+  margin-top: 25px;
+}
+
+.luna {
+  display: inline-block;
+  width: 200px;
+  margin-left: 20px;
+  border: 1px solid #d3d3d3;
+  border-radius: 10px;
+  overflow: hidden;
+  background: lightgray;
+}
+
+.duque {
+  display: inline-block;
+  width: 200px;
+  margin-left: 20px;
+  border: 1px solid #d3d3d3;
+  border-radius: 10px;
+  overflow: hidden;
+  background: lightgray;
+}
+
+.thor {
+  display: inline-block;
+  width: 200px;
+  margin-left: 20px;
+  border: 1px solid #d3d3d3;
+  border-radius: 10px;
+  overflow: hidden;
+  background: lightgray;
+}
+
+.perola {
+  display: inline-block;
+  width: 200px;
+  margin-left: 20px;
+  border: 1px solid #d3d3d3;
+  border-radius: 10px;
+  overflow: hidden;
+  background: lightgray;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  transition: 0.5s all;
+}
+
+.fim {
+  margin-top: 100px;
+}
+
+.fim p {
+  margin-top: 25px;
+}
+
+.listafooter {
+  margin-top: 25px;
+}
+
+.listafooter li {
+  margin: 20px;
+}
